@@ -2,13 +2,18 @@ import React, { Component } from "react";
 import "bulma/css/bulma.css";
 import "../App.css";
 import openbox from "../Assets/open_box.png"
-import BuynowCard from "../src/components/buycolumns.js"
+import Buynowcard from "./buycolumns.js"
 
 
   
 const Buynow = ({ Buynow }) => {
   return (
-    <Buynowcard />
+    <div class="buycolumns">
+      <div class="columns">
+        <div class="column">hi</div>
+        <div class="column">hi</div>
+      </div>
+    </div>
   );
 };
 export default Buynow;
