@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "bulma/css/bulma.css";
 import "../App.css";
+import Logo from "../Assets/miamipak.png"
 import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 
 // Button Click function
@@ -23,7 +24,7 @@ class Navbar extends Component {
         <div className="navbar-brand">
           <a className="navbar-item" href="https://bulma.io">
             <img
-              src="https://logorealm.com/wp-content/uploads/2016/07/Marvel-Logo.png"
+              src={Logo}
               width="100"
               height="auto"
             />

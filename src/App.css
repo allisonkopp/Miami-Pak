@@ -13,10 +13,44 @@ body {
   background-attachment: fixed;
   background-position: center;
   margin: 0;
-  font-family: 'Bangers'
 }
 
 body:before {
   filter: blur(10px);
 }
 
+.hero-container {
+  background-image: linear-gradient(to right bottom, #29d3d3, #00cefc, #56c1ff, #b5abff, #f890e7);
+  text-align: center;
+}
+
+.desctext {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-container {
+  padding-bottom: 40px;
+}
+
+.threecol {
+  background-color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.slider {
+  height:300px;
+  background-color: pink;
+  text-align: center;
+}
+
+.buynowcont {
+  height: 300px;
+  background-color: lightblue;
+  text-align: center;
+}
