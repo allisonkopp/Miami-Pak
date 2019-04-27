@@ -73,15 +73,19 @@ code {
   background: white !important;
 }
 
-#root > div > div > div:nth-child(1),
-#root > div > div > div:nth-child(2),
-#root > div > div > div:nth-child(3) {
+.buyPageModule {
   background: white;
   padding: 50px;
   margin: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 33%;
+}
+
+.buyPageContainer {
+  display: flex;
+  justify-content: space-around;
 }
 
 #root > div > div > div:nth-child(1) > h1,
@@ -96,12 +100,12 @@ code {
 #root > div > div > div:nth-child(2) > button,
 #root > div > div > div:nth-child(3) > button {
   background-image: none;
-  background: #ff1574;
-  border: 3px solid #ff1574;
-  color: #fff;
+  background: rgb(219, 62, 177);
+  border: 3px solid rgb(219, 62, 177);
+  color: white;
   cursor: pointer;
   display: inline-block;
-  font-family: open sans, helvetica neue, Helvetica, Arial, sans-serif;
+  font-family: "Questrial";
   font-weight: 700;
   padding: 7px 15px;
   font-size: 1.4rem;
@@ -137,6 +141,85 @@ code {
   line-height: 1.5;
   padding-right: 10%;
 }
+#root > div > div > div > div.hero-container {
+  margin: 100px;
+}
+#root > div > div > div > div.hero-container > div > div.column.desctext > h1 {
+  margin: 50px;
+  color: rgb(219, 62, 177) !important;
+  font-size: 4em;
+  padding-right: 10%;
+}
+#root > div > div > div > div.hero-container > div > div:nth-child(1) > img {
+  margin-top: 150px;
+}
+#root > div > div > div > div.threecol.center > h1 {
+  color: rgb(219, 62, 177) !important;
+}
+
+#navbarBasicExample > div.navbar-start > a:nth-child(1) {
+  color: rgb(219, 62, 177) !important;
+}
+#root > div > div > div > div.slider {
+  background-color: white;
+  margin: 100px;
+}
+
+#root > div > div > div > div.slider > div > div > img {
+  width: 350px;
+}
+
+.hero-container {
+  background: white !important;
+}
+#root > div > div > div > div.hero-container > div > div.column.desctext > h4 {
+  text-align: justify;
+  font-weight: 200;
+  line-height: 1.5;
+  padding-right: 10%;
+}
+#root > div > div > div > div.hero-container {
+  margin: 100px;
+}
+#root > div > div > div > div.hero-container > div > div.column.desctext > h1 {
+  margin: 50px;
+  color: rgb(219, 62, 177) !important;
+  font-size: 4em;
+  padding-right: 10%;
+}
+#root > div > div > div > div.hero-container > div > div:nth-child(1) > img {
+  margin-top: 150px;
+}
+#root > div > div > div > div.threecol.center > h1 {
+  color: rgb(219, 62, 177) !important;
+}
+
+#navbarBasicExample > div.navbar-start > a:nth-child(1) {
+  color: rgb(219, 62, 177) !important;
+}
+#root > div > div > div > div.slider {
+  background-color: white;
+  margin: 100px;
+}
+
+#root > div > div > div > div.slider > div > div > img {
+  width: 350px;
+}
+#root > div > div > div > div.slider > div > div > button {
+  font-family: "Questrial";
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(219, 62, 177);
+  border-radius: 5px;
+  border: rgb(219, 62, 177);
+}
+#root > div > div > div > div.slider > div > div > button > a > h3 {
+  color: white;
+  text-align: center;
+  margin: 5px;
+  font-size: xx-large;
+}
+
 #root > div > div > div > div.hero-container {
   margin: 100px;
 }
