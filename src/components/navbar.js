@@ -68,8 +68,42 @@ class Navbar extends Component {
                 <a className="button marvbtn">
                   <strong>Sign up</strong>
                   <Modal show={this.state.show} handleClose={this.hideModal}>
-          <p>hi</p>
-          <p>Data</p>
+                  <section class="hero is-success is-fullheight">
+        <div class="hero-body" >
+            <div class="container has-text-centered">
+                <div class="column is-4 is-offset-4">
+                    <div class="box">
+                        <figure class="avatar">
+                            <img src={Logo} />
+                        </figure>
+                        <form>
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-large" type="email" placeholder="Your Email" autofocus="" />
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-large" type="password" placeholder="Your Password" />
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="checkbox">
+                  <input type="checkbox" />
+                  Remember me
+                </label>
+                            </div>
+                            <button class="button is-block is-info is-large is-fullwidth">Login</button>
+                        </form>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+
         </Modal>
                 </a>
                 <a className="button is-light" onClick={this.showModal}>Log in</a>

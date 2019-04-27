@@ -82,7 +82,7 @@ body:before {
 
 .modal-main {
   position:fixed;
-  background: white;
+  background: #ffffff00;
   width: 80%;
   height: auto;
   top:50%;
@@ -114,4 +114,14 @@ a {
 
 .subscribebut {
   align-self: center;
+}
+
+.hero.is-success {
+  background-color: #23d16000;
+  color: #fff;
+}
+
+#navbarBasicExample > div.navbar-end > div > div > a.button.marvbtn > div > section > button {
+  position: relative;
+  bottom: 120px;
 }
