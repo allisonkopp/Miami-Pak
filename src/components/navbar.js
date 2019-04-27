@@ -16,7 +16,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav
-        className="navbar is-black"
+        className="navbar"
         role="navigation"
         aria-label="main navigation"
       >
