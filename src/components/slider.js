@@ -3,6 +3,7 @@ import "bulma/css/bulma.css";
 import "../App.css";
 import { CSSTransitionGroup } from "react-transition-group";
 import openBox from "../Assets/open_box.png"
+import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 
 
 
@@ -12,7 +13,11 @@ const Slider = ({ Slider }) => {
         <div class="columns">
           <div class="column">
            <img src={openBox}></img>
-           <input type="submit" value="Subscribe"></input>
+           <button>
+            <Link to="/buypage">
+              <h3>Subscribe!</h3>
+            </Link>
+          </button>
           </div>
         </div>
       </div>

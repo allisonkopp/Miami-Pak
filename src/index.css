@@ -100,3 +100,18 @@ code {
  #root > div > div > div > div.slider > div > div > img{
    width:350px;
  }
+ #root > div > div > div > div.slider > div > div > button{
+   font-family:'Questrial';
+   padding:10px;
+   text-align: center;
+   background-color:rgb(219,62,177); 
+   border-radius:5px;
+   border:rgb(219,62,177);
+  }
+    #root > div > div > div > div.slider > div > div > button > a > h3{
+    color: white;
+    text-align: center;
+    margin: 5px;
+    font-size: xx-large;
+    }
+    
