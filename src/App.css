@@ -74,3 +74,10 @@ body:before {
 a {
   color: white;
 }
+
+/* CHECKOUTPAGE CSS */
+.legendsBG {
+  background-color: white;
+  padding: 100px;
+  margin: 30px;
+}

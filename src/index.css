@@ -127,3 +127,40 @@ code {
   color: grey;
   margin: 15px;
 }
+
+.hero-container {
+  background: white !important;
+}
+#root > div > div > div > div.hero-container > div > div.column.desctext > h4 {
+  text-align: justify;
+  font-weight: 200;
+  line-height: 1.5;
+  padding-right: 10%;
+}
+#root > div > div > div > div.hero-container {
+  margin: 100px;
+}
+#root > div > div > div > div.hero-container > div > div.column.desctext > h1 {
+  margin: 50px;
+  color: rgb(219, 62, 177) !important;
+  font-size: 4em;
+  padding-right: 10%;
+}
+#root > div > div > div > div.hero-container > div > div:nth-child(1) > img {
+  margin-top: 150px;
+}
+#root > div > div > div > div.threecol.center > h1 {
+  color: rgb(219, 62, 177) !important;
+}
+
+#navbarBasicExample > div.navbar-start > a:nth-child(1) {
+  color: rgb(219, 62, 177) !important;
+}
+#root > div > div > div > div.slider {
+  background-color: white;
+  margin: 100px;
+}
+
+#root > div > div > div > div.slider > div > div > img {
+  width: 350px;
+}
