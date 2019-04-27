@@ -3,7 +3,7 @@
 body {
  margin: 0;
  padding: 0;
- font-family: "Questrial";
+ font-family: "Questrial" !important;
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
 }
@@ -47,11 +47,9 @@ code {
  font-size: 4em;
 }
 
-.desctext {
- font-famil: "Quriel";
-}
+
 #root > div > div > div > div.hero-container > div > div.column.desctext > h1 {
- color: rgb (65, 182, 230);
+ color: rgb(65, 182, 230) !important;
 }
 
 #root > div > div > div > div.hero-container > div > div.column.desctext > h1 {
