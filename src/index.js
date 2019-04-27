@@ -16,6 +16,7 @@ const routing = (
       <Navbar />
       <Route exact path="/" component={App} />
       <Route exact path="/buynow" component={Buynow} />
+      <Route exact path="/about" component={About} />
       <Route exact path="/buypage" component={Buynowcard} />
       <Route exact path="/checkout" component={Checkoutcard} />
     </div>

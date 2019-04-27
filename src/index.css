@@ -247,3 +247,7 @@ code {
 #root > div > div > div > div.slider > div > div > img {
   width: 350px;
 }
+
+.abouttext {
+  background: white;
+}
