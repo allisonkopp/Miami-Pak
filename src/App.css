@@ -107,3 +107,11 @@ a {
   padding: 100px;
   margin: 30px;
 }
+#root > div > div > div:nth-child(1) > form > fieldset > legend{
+  color: rgb(219,62,177);
+  font-size:3em;
+}
+
+.subscribebut {
+  align-self: center;
+}

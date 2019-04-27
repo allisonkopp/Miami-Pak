@@ -4,7 +4,6 @@ import "../App.css";
 import Hero from "../components/hero.js";
 import Threecol from "../components/threecol.js";
 import Slider from "../components/slider.js";
-import Buynow from "../components/buynow.js";
 import ReactLoading from "react-loading";
 import Modal from "../components/modal.js"
 
@@ -96,7 +95,7 @@ class Home extends Component {
         <Hero />
         <Threecol />
         <Slider />
-        <Buynow />
+       
 
         
         <Modal show={this.state.show} handleClose={this.hideModal}>

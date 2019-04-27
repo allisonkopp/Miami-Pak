@@ -11,7 +11,10 @@ const Slider = ({ Slider }) => {
       <div class="columns">
         <div class="column">
           <img src={openBox} />
-          <button>
+        </div>
+        <div class="column subscribebut">
+        <h1>What are you waiting for?</h1>
+        <button>
             <Link to="/buypage">
               <h3>Subscribe!</h3>
             </Link>
