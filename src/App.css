@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url("https://fonts.googleapis.com/css?family=Bangers");
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   background-color: transparent;
@@ -29,15 +30,22 @@ body:before {
 }
 
 .hero-container {
-  background-image: linear-gradient(to right bottom, #29d3d3, #00cefc, #56c1ff, #b5abff, #f890e7);
+  background-image: linear-gradient(
+    to right bottom,
+    #29d3d3,
+    #00cefc,
+    #56c1ff,
+    #b5abff,
+    #f890e7
+  );
   text-align: center;
 }
 
 .desctext {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .hero-container {
@@ -53,22 +61,29 @@ body:before {
 }
 
 .slider {
-  height:300px;
+  height: 300px;
   background-color: pink;
   text-align: center;
 }
 
 .buynowcont {
-
   background-color: lightblue;
   text-align: center;
 }
 
+a {
+  color: white;
+}
 
 /* CHECKOUTPAGE CSS */
-.legendsBG{
+.legendsBG {
   background-color: white;
   padding: 100px;
+<<<<<<< HEAD
   margin:30px;
 }
 a{ color:white;}
+=======
+  margin: 30px;
+}
+>>>>>>> b073919296ccdb487ff6757116f101668794dfc4
