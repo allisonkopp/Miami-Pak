@@ -6,7 +6,10 @@ class About extends React.Component {
       <div className="container">
         <div className="aboutcontainer">
           <div className="column">
-            <h1 class="aboutTitle">About This Project</h1>
+            <center>
+              {" "}
+              <h1 class="aboutTitle">About This Project</h1>
+            </center>
           </div>
 
           <div className="columns">
@@ -25,7 +28,10 @@ class About extends React.Component {
                 delivered right to your door and instantly feel like you’re back
                 home.
               </h2>
-              <h2 class="abouttext final">Made by IronhackFtw</h2>
+              <center>
+                {" "}
+                <h2 class="abouttext final">Made by IronhackFtw</h2>
+              </center>
             </div>
           </div>
         </div>
