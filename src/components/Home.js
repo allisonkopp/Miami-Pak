@@ -83,7 +83,6 @@ class Home extends Component {
         <Hero />
         <Threecol />
         <Slider />
-        <Buynow />
       </div>
     );
   }
