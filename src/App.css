@@ -79,11 +79,9 @@ a {
 .legendsBG {
   background-color: white;
   padding: 100px;
-<<<<<<< HEAD
-  margin:30px;
-}
-a{ color:white;}
-=======
   margin: 30px;
 }
->>>>>>> b073919296ccdb487ff6757116f101668794dfc4
+#root > div > div > div:nth-child(1) > form > fieldset > legend{
+  color: rgb(219,62,177);
+  font-size:3em;
+}

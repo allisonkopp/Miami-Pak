@@ -16,8 +16,8 @@ class Buynowcard extends Component {
     return (
       // <div class="buycontent">
       //   <div class="headertext">
-      <div class="columns">
-        <div class="column">
+      <div class="columns" class="buyPageContainer">
+        <div class="column" class="buyPageModule">
           <h1>BIWEEKLY</h1>
           <img height="100px" src={box} />
           <h2>$25/box</h2>
@@ -27,7 +27,7 @@ class Buynowcard extends Component {
             </Link>
           </button>
         </div>
-        <div class="column">
+        <div class="column" class="buyPageModule">
           <h1>MONTHLY</h1>
 
           <img height="100px" src={box2} />
@@ -38,7 +38,7 @@ class Buynowcard extends Component {
             </Link>
           </button>
         </div>
-        <div class="column">
+        <div class="column" class="buyPageModule">
           <h1>TWO MONTHS</h1>
 
           <img height="100px" src={box3} />
