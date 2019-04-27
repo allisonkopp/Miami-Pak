@@ -4,9 +4,11 @@ import Navbar from "./components/navbar.js";
 import About from "./components/about.js";
 import "./App.css";
 import Home from "./components/Home.js"
+import "firebase/auth";
 
 const firebase = require("firebase");
 const Firestore = require("@google-cloud/firestore");
+
 
 const config = {
   apiKey: "AIzaSyB-T7G05PGbsOzy99CqMWEUuaRHyKQbzyo",

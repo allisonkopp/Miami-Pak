@@ -273,6 +273,7 @@ code {
 }
 /* #root > div > div > div > div.hero-container > div > div:nth-child(1) > img {
   margin-top: 150px;} */
+
 #root > div > div > div > div.threecol.center > h1 {
   color: rgb(219, 62, 177) !important;
 }

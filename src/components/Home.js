@@ -5,6 +5,9 @@ import Hero from "../components/hero.js";
 import Threecol from "../components/threecol.js";
 import Slider from "../components/slider.js";
 import ReactLoading from "react-loading";
+import Modal from "../components/modal.js"
+
+
 
 // var imgSrc = [];
 
@@ -23,6 +26,16 @@ import ReactLoading from "react-loading";
 //character("black panther")
 
 class Home extends Component {
+
+  state = { show: false };
+
+  showModal = () => {
+    this.setState({ show: true });
+  };
+
+  hideModal = () => {
+    this.setState({ show: false });
+  };
   //  constructor(props) {
   //    super(props);
   //    this.state = {
@@ -82,6 +95,14 @@ class Home extends Component {
         <Hero />
         <Threecol />
         <Slider />
+       
+
+        
+        <Modal show={this.state.show} handleClose={this.hideModal}>
+          <p>Modal</p>
+          <p>Data</p>
+        </Modal>
+  
       </div>
     );
   }
