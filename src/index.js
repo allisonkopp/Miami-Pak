@@ -2,17 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import About from './components/about.js'
 import Navbar from './components/navbar.js'
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
+import Buynow from './components/buynow';
 
 const routing = (
   <Router>
     <div>
     <Navbar />
       <Route exact path="/" component={App} />
-      <Route exact path="/about" component={About} />
+      <Route exact path="/buynow" component={Buynow} />
     </div>
   </Router>
 )
