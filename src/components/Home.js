@@ -103,9 +103,7 @@ class Home extends Component {
           <p>Modal</p>
           <p>Data</p>
         </Modal>
-        <button type="button" onClick={this.showModal}>
-          open
-        </button>
+  
       </div>
     );
   }

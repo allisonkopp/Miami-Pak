@@ -7,6 +7,9 @@ import Slider from "../components/slider.js";
 import Buynow from "../components/buynow.js";
 import ReactLoading from "react-loading";
 import { Route, Link, BrowserRouter as Router } from "react-router-dom";
+import box from "../Assets/open_box.png";
+import box2 from "../Assets/2box.png";
+import box3 from "../Assets/3box.png";
 
 class Buynowcard extends Component {
   render() {
@@ -16,6 +19,8 @@ class Buynowcard extends Component {
       <div class="columns">
         <div class="column">
           <h1>BIWEEKLY</h1>
+          <img height="100px" src={box} />
+          <h2>$25/box</h2>
           <button>
             <Link to="/checkout">
               <h1>Buy Now</h1>
@@ -24,6 +29,9 @@ class Buynowcard extends Component {
         </div>
         <div class="column">
           <h1>MONTHLY</h1>
+
+          <img height="100px" src={box2} />
+          <h2>$30/box</h2>
           <button>
             <Link to="/checkout">
               <h1>Buy Now</h1>
@@ -32,6 +40,9 @@ class Buynowcard extends Component {
         </div>
         <div class="column">
           <h1>TWO MONTHS</h1>
+
+          <img height="100px" src={box3} />
+          <h2>$50/box</h2>
           <button>
             <Link to="/checkout">
               <h1>Buy Now</h1>

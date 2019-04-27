@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "bulma/css/bulma.css";
 import "../App.css";
-import Logo from "../Assets/miamipak.png"
+import Logo from "../Assets/miamipak.png";
 import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 import Modal from "../components/modal.js"
 
@@ -11,9 +11,7 @@ import Modal from "../components/modal.js"
 var showmenu = () => {
   var x = document.getElementsByClassName("navbar-menu");
   x.classList.toggle("is-active");
-}
-
-
+};
 
 class Navbar extends Component {
 
@@ -33,18 +31,10 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav
-        className="navbar"
-        role="navigation"
-        aria-label="main navigation"
-      >
+      <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
-          <a className="navbar-item" href="https://bulma.io">
-            <img
-              src={Logo}
-              width="100"
-              height="auto"
-            />
+          <a className="navbar-item" href="/">
+            <img src={Logo} width="100" height="auto" />
           </a>
 
           <a

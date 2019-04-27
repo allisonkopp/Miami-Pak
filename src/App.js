@@ -5,9 +5,6 @@ import About from "./components/about.js";
 import "./App.css";
 import Home from "./components/Home.js"
 import "firebase/auth";
-export default Firebase
-export const provider = new firebase.auth.GoogleAuthProvider();
-export const auth = firebase.auth();
 
 const firebase = require("firebase");
 const Firestore = require("@google-cloud/firestore");
