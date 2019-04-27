@@ -63,3 +63,11 @@ body:before {
   background-color: lightblue;
   text-align: center;
 }
+
+
+/* CHECKOUTPAGE CSS */
+.legendsBG{
+  background-color: white;
+  padding: 100px;
+  margin:30px;
+}
