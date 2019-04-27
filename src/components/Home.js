@@ -98,10 +98,7 @@ class Home extends Component {
        
 
         
-        <Modal show={this.state.show} handleClose={this.hideModal}>
-          <p>Modal</p>
-          <p>Data</p>
-        </Modal>
+        
   
       </div>
     );
