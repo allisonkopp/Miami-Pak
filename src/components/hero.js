@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "bulma/css/bulma.css";
 import "../App.css";
+import Box from "../Assets/Box.png"
 
 
   
@@ -9,7 +10,7 @@ const Hero = ({ Hero }) => {
     <div class="hero-container">
     <div class="columns">
       <div class="column">
-        <img src="https://munchpak.com/static/version_2f60d29b99/frontend/Ripen/munchpak/en_US/images/pages/home/slides/slide-munchpak.png" />
+        <img src={Box} />
       </div>
       <div class="column desctext">
         <h1>MiamiPak</h1>
