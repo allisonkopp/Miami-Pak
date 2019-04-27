@@ -104,9 +104,12 @@ a {
 /* CHECKOUTPAGE CSS */
 .legendsBG {
   background-color: white;
-  padding: 100px;
+  padding: 20px;
   margin: 30px;
 }
+
+
+
 #root > div > div > div:nth-child(1) > form > fieldset > legend{
   color: rgb(219,62,177);
   font-size:3em;

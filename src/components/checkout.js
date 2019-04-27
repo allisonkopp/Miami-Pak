@@ -146,7 +146,7 @@ class Checkoutcard extends Component {
 
         </div>
         <div class="column center">
-          <img src={Box}></img>
+          <img class="boxCheckout" src={Box}></img>
         </div>
       </div >
     );
