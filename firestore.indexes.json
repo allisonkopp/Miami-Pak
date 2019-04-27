@@ -1,0 +1,19 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "food",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "item",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "origin",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
