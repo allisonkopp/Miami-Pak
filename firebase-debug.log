@@ -1,0 +1,25 @@
+[debug] [2019-04-27T15:43:13.411Z] ----------------------------------------------------------------------
+[debug] [2019-04-27T15:43:13.414Z] Command:       /usr/local/Cellar/node/11.4.0/bin/node /usr/local/bin/firebase serve
+[debug] [2019-04-27T15:43:13.414Z] CLI Version:   6.7.1
+[debug] [2019-04-27T15:43:13.414Z] Platform:      darwin
+[debug] [2019-04-27T15:43:13.414Z] Node Version:  v11.4.0
+[debug] [2019-04-27T15:43:13.415Z] Time:          Sat Apr 27 2019 11:43:13 GMT-0400 (Eastern Daylight Time)
+[debug] [2019-04-27T15:43:13.415Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-27T15:43:13.428Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-27T15:43:13.428Z] > authorizing via signed-in user
+[debug] [2019-04-27T15:43:13.429Z] [iam] checking project connecting-miami-to-the-world for permissions ["firebase.projects.get"]
+[debug] [2019-04-27T15:43:13.431Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/connecting-miami-to-the-world:testIamPermissions  
+
+[debug] [2019-04-27T15:43:13.730Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-27T15:43:13.732Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/connecting-miami-to-the-world  
+ 
+[debug] [2019-04-27T15:43:13.967Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/allisonkopp/Documents/IronHack/hackathon/Connecting-Miami-to-the-World'...
+[info] 
+[debug] [2019-04-27T15:43:13.970Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/516476440799/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-27T15:43:14.293Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
